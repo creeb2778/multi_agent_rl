@@ -7,8 +7,16 @@ multi agent deep RL
 python 3.6+
 torch 0.4.1
 unityagents 0.4.0
+pandas 0.22.0
+numpy 1.14.2
+mlagents 0.5.0
+matplotlib 2.1.2 
 
-The linux version of the environment can be found in this repo (Tennis_Linux folder)
+#### Installation
+
+Most of the dependencies can be installed with a basic pip call. I recommend installing the mlagents (via pip) first, and then downloading the 0.4 unityagents package. You can also download unity directly from [their website.](https://unity3d.com/get-unity/download)
+
+The linux version of the environment can be found in this repo (Tennis_Linux folder). This environment is slightly different then the unity version, so please download this folder and place it in your working directory. Point the unity environment to the Tennis.x86_64 file in your downloaded Tennis_Linux folder. 
 
 ## Project Details
 
